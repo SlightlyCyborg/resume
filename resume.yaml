@@ -1,0 +1,82 @@
+basicInfo:
+        name: Collin Bell
+        birthdate: 1992-01-15
+        location: St Louis, MO
+        mtbi: INTJ
+
+jobHistory:
+        - company: Trademark Ads
+          startDate: 2015-01-15
+          endDate: 2016-06-15
+        - company: Oak Ridge National Lab
+
+        - company: Aspex Incorporated
+          type: Short Term Contract on W2
+          startDate: 2017-09-25
+          endDate: 2018-02-07
+          description: I wrote a linux serial driver for the Keyence Laser profiler to be used in a computer vision application for the textiles industry. I also designed an automated microscope in AutoCAD as a potential product for customers who wanted a smaller and less expensive inspection machine than any machine we currently offer.
+          boss: BJ Henrici
+        
+
+        - company: Resource IO
+          startDate: 2014-04-01
+          endDate: 2018-06-01
+          type: freelancer
+          description: I built embedded systems for industrial IoT in Python and wrote a prototype of a data query API in GoLang.
+          boss: Karl Dittrich
+          contact: 805-680-6331
+
+        - company: University of Tennessee Athletics
+        - company: University of Tennessee Outdoor Program
+        - company: Duke Energy
+        - company: Baskin Robbins
+        - company: Elavon
+          role: Janitor
+        - company: Baskin Robbins
+        - company: Kroger
+
+productHistory:
+        - name: Video Search Engine
+          description: Life/Lecture search that indexes YouTube captions and video timestamps. Sold to Professor Dr. Jordan B Peterson for 4000$. Example shown on 1st picture of Medium article <a href="">"The time I was hacked by Mr. Sh"</a>
+
+mediumArticles:
+        - name: Building a pushup counter with Clojure + OpenCV
+        - name: The time I was hacked by Mr. Sh
+
+personalProjects:
+        - name: Holon
+          description: a self-improvement system
+          languages: 
+                - Lisp
+
+        - name: Clj-solr
+          description: a wrapper around Solr for Clojure
+          languages:
+                - Clojure
+
+        - name: Daemon
+          description: my personal AI. It uses Microsoft's speech to text, IBM's text to speech, and it interfaces with several web APIs
+          languages: 
+                - Clojure
+
+        - name: Sentence Similarity
+          description: compare 2 sentences
+          languages:
+                - Clojure
+        
+        - name: Clj-eyes
+          description: a tool to play with OpenCV in clojure
+          languages:
+                - Clojure
+                - ClojureScript
+
+        - name: Choreo
+          description: A library to concurrently control multiple servos as a function of position & time on Arduino. Uses linear interpolation to generate and send interleved position commands to the servos. "Take 4 seconds to move 20 degrees" is an example command. Interpolation is abstracted such that other interpolation types could be used (logistic seems like a good candidate to ease actuators in and out of their positions).
+
+        - name: Serial Driver for Keyence Laser Profiler
+          description: I used serial packet documentation for the Profiler to reverse engineer a Linux driver from a closed source Windows driver.
+
+        - name: Conway's game of life
+          description: a classic cellular automata.
+          languages:
+                - C++
