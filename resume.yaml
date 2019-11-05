@@ -6,33 +6,50 @@ basicInfo:
 
 jobHistory:
         - company: Trademark Ads
-          startDate: 2015-01-15
-          endDate: 2016-06-15
+          startDate: 2015-01
+          endDate: 2016-06
+          description: I wrote beckend features for hospitaljobsonline.com, developed an internal project management system from scratch, and I also helped to develop a real estate web app. We used Linux, PHP, MySql, JQuery, and Solr.
+          boss: George Corley
+          contact: 865-966-1690
+
         - company: Oak Ridge National Lab
+          startDate: 2013-01
+          endDate: 2013-08
+          description: I built a GIS social media visualization tool in Java. I also built a back end system for passing internal network security data to another intern's vizualizations
+          boss: Chad Steed
+          contact: csteed@acm.org
 
         - company: Aspex Incorporated
           type: Short Term Contract on W2
-          startDate: 2017-09-25
-          endDate: 2018-02-07
+          startDate: 2017-09
+          endDate: 2018-02
           description: I wrote a linux serial driver for the Keyence Laser profiler to be used in a computer vision application for the textiles industry. I also designed an automated microscope in AutoCAD as a potential product for customers who wanted a smaller and less expensive inspection machine than any machine we currently offer.
           boss: BJ Henrici
         
 
         - company: Resource IO
-          startDate: 2014-04-01
-          endDate: 2018-06-01
+          startDate: 2014-04
+          endDate: 2018-06
           type: freelancer
           description: I built embedded systems for industrial IoT in Python and wrote a prototype of a data query API in GoLang.
           boss: Karl Dittrich
           contact: 805-680-6331
 
         - company: University of Tennessee Athletics
+          startDate: 2012-08
+          endDate: 2012-12
+
         - company: University of Tennessee Outdoor Program
+
         - company: Duke Energy
+
         - company: Baskin Robbins
+
         - company: Elavon
           role: Janitor
+
         - company: Baskin Robbins
+
         - company: Kroger
 
 productHistory:
@@ -80,3 +97,39 @@ personalProjects:
           description: a classic cellular automata.
           languages:
                 - C++
+        - name: FacebookMiner
+          description: the first program I was paid for (2013)
+          languages:
+                - Python
+        - name: Mental Health App
+          description: homemade stress gague
+        - name: Genetically Evolved Neural Networks
+          description: I evolved neuralnetworks to simulate a bot working in a garden
+          languages: 
+                - C++
+                - Python
+        - name: Terminator Robot
+          description: A robot that could drive around, shoot rubber bands at people, and use a soundboard to speak
+          languages:
+                - Javascript
+                - Python
+
+        - name: Robotic Neck Swivel
+          description: A single axes swivel for my laptop that rotate laptop around so its camera can change its field of view when objects that are being tracked move.
+          languages:
+                - C++ (OpenCV)
+        - name: TY Beanie Baby Robot
+          description: I 3d printed a skeleton for a small plush toy and used 4 servos to make it move.
+          languages:
+                - C++ (Using my Choreo library)
+                - Clojure
+        - name: Dragon Animatronic with Smartphone
+          description: I 3d printed a dragon what could move its head on 2 axes. My smart phone could be inserted in the head and software on the smartphone could control the head movement via a bluetooth module on the Arduino servo controller
+          languages:
+                - C++ (Using my Choreo library)
+                - Clojure (Compiled to Davlik for Android)
+        - name: BB8 Clone
+          description: An overambitious robot project that used 3 omniwheels inside a giant 3d printed ball to replicate the Starwars BB8 robot. The ball could move around, but it was too thick to keep the head attached via magnets on the outside (despite using 12 x 1.5 inch by .5 inch neodymium magnets). 
+          languages:
+                - C++ (on the Arduino)
+                - Clojure (on the Microsoft Surface Pro in the robot's head)
